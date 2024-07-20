@@ -1,0 +1,71 @@
+// import { StrictMode } from "react";
+// import { createRoot } from "react-dom/client";
+// import "./styles.css";
+
+// function App() {
+//   return (
+//     <div className="card">
+//       <Avatar />
+//       <div className="data">
+//         <Intro />
+//         {/* Should contain one Skill component
+//         for each web dev skill that you have,
+//         customized with props */}
+//         <SkillList />
+//       </div>
+//     </div>
+//   );
+// }
+
+// const rootElement = document.getElementById("root");
+// const root = createRoot(rootElement);
+
+// root.render(
+//   <StrictMode>
+//     <App />
+//   </StrictMode>
+// );
+
+// function Avatar() {
+//   return (
+//     <div>
+//       <img className="avatar" src="ReginaH.jpg" alt="Regina Uyen Ho" />
+//     </div>
+//   );
+// }
+
+// function Intro() {
+//   return (
+//     <div>
+//       <h1>Regina Uyen Ho</h1>
+//       <p>
+//       A senior student at University of Missouri-Kansas City, majoring in Computer Science with a minor in Mathematics. 
+//       I have a strong passion for web design and have honed my skills in both front-end and back-end programming.
+//       </p>
+//     </div>
+//   );
+// }
+
+// function SkillList() {
+//   return (
+//     <div className="skill-list">
+//       <Skill Skillname="HTML + CSS" emoji="😁" color="orangered" />
+//       <Skill
+//         Skillname="Python"
+//         emoji="✌️"
+//         color="lightblue"
+//       />
+//       <Skill Skillname="C++" emoji="😊" color="yellow" />
+//       <Skill Skillname="JavaScript + REACT" emoji="💪" color="lightgreen" />
+//       <Skill Skillname="Java" emoji="🐣" color="lightgreen" />
+//     </div>
+//   );
+// }
+// function Skill(props) {
+//   return (
+//     <div className="skill" style={{ backgroundColor: props.color }}>
+//       <span>{props.Skillname}</span>
+//       <span>{props.emoji}</span>
+//     </div>
+//   );
+// }
